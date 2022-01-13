@@ -5,12 +5,12 @@ from utils import random_hex_32
 
 app = Flask("AnoMe")
 app.secret_key = random_hex_32()
-app.debug = True
+app.debug = False
 
 from database import db
 from models import QA, Likes
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///example_db"
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///mysqlite_db"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = True
 db.init_app(app)
 with app.app_context():
