@@ -3,6 +3,10 @@
 
 <p align="center">Just a tiny anonymous question box.</p>
 
+<a href="https://heroku.com/deploy?template=https://github.com/Gnomeek/AnoMe">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
+
 ## Why
 I need a anonymous question box with some 'private answer' function, and I do not trust the box run by the porviders.
 

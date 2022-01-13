@@ -1,0 +1,6 @@
+{
+  "name": "YAnoMe",
+  "description": "Just a tiny anonymous question box",
+  "repository": "https://github.com/Gnomeek/AnoMe",
+  "keywords": ["flask", "python"]
+}
